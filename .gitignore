@@ -1,0 +1,41 @@
+# Local configuration (copy .env-example to .env and edit it)
+.env
+
+# Virtual environments (in case one is created inside the repo)
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs produced by the scripts (e.g. `log --csv weights.csv`)
+*.log
+logs/
+# Uncomment if CSV readings should never be committed:
+# *.csv
+
+# IDE / tools
+.idea/
+.vscode/
+.claude/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
